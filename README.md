@@ -1,0 +1,65 @@
+# Amazon Last-Mile ETA Prediction
+
+## Project Overview
+
+This project focuses on predicting the Estimated Time of Arrival (ETA) for last-mile deliveries using machine learning techniques. The goal is to improve delivery efficiency and customer satisfaction by providing accurate ETA predictions.
+
+## Project Problem Statement
+
+The main problem we aim to solve is to predict the ETA for last-mile deliveries based on various features such as delivery location, time of day, traffic conditions, and historical delivery data. Accurate ETA predictions can help optimize delivery routes, manage customer expectations, and improve overall logistics operations.
+
+## Project Success Criteria
+
+1. **Model Accuracy**: The ETA prediction model should achieve a high level of accuracy, ideally with a mean absolute error (MAE) of less than 10 minutes and a root mean squared error (RMSE) of less than 15 minutes.
+2. **Scalability**: The model should be able to handle large volumes of delivery data and provide predictions in real-time.
+3. **Integration**: The model should be easily integrable into existing delivery management systems.
+
+## Evaluation Metrics
+
+- MAE
+- RMSE
+- R2_score
+
+## Dataset
+
+The dataset used for this project is the Amazon Last-Mile Delivery dataset, which contains historical delivery data, including delivery locations, timestamps, traffic conditions, and other relevant features. The dataset is available in CSV format and can be accessed from the provided link [https://www.kaggle.com/datasets/sujalsuthar/amazon-delivery-dataset?resource=download]
+
+## Current Progress
+
+- Data collection and loading
+
+## Testing
+
+## Model Packaging and Deployment
+
+## Stack & Tools
+
+- Python
+- jupyter Notebooks
+- Pandas
+- NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
+- geopy
+- shap
+
+## Project Steps
+
+- Data collection and loading
+- Data cleaning and preprocessing
+- Exploratory data analysis (EDA)
+- Data splitting
+- Baseline modeling
+- Build full preprocessing + model pipeline
+- Feature engineering
+- Artifact creation
+- Model training and tuning
+- Final evaluation (test set)
+- Unit testing
+- Model packaging and deployment readiness
+- Monitoring and maintenance plan
+
+## Author
+
+Issa Muiz
+Machine Learning Engineer
