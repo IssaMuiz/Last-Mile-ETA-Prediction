@@ -128,7 +128,7 @@ def drop_rows_with_missing_values(df: pd.DataFrame, column_name: str):
 
     """
     try:
-        df = df.dropna(subset=[column_name])
+        df = df[column_name].dropna()
         df = df.reset_index(drop=True)
         print("rows with missing values dropped successfully")
         return df

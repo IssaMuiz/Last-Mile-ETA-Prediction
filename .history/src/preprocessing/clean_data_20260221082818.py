@@ -115,24 +115,3 @@ def impute_missing_values_for_agent_rating(df: pd.DataFrame):
     except Exception as e:
         print(f"An error occured during imputation: {e}")
         raise
-
-
-def drop_rows_with_missing_values(df: pd.DataFrame, column_name: str):
-    """
-    Drop a missing values in a specified column
-
-    paramters: 
-    df (pd.DataFrame): The dataframe for the dataset
-    column_name: The name of the column to be checked for missing values and dropped
-    Returns: pd.DataFrame: A dataframe with missing values in the specified column dropped
-
-    """
-    try:
-        df = df.dropna(subset=[column_name])
-        df = df.reset_index(drop=True)
-        print("rows with missing values dropped successfully")
-        return df
-    except Exception as e:
-        print(
-            f"An error occured during dropping rows with missing values: {e}")
-        raise
