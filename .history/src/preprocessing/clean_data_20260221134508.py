@@ -106,7 +106,7 @@ def impute_missing_values_for_agent_rating(df: pd.DataFrame):
     try:
         df['Agent_Rating'] = df['Agent_Rating'].fillna(
             df['Agent_Rating'].median())
-        print("Missing values in Agent_Rating column imputed successfully")
+        print("Missing values in Agent_Rating column flags and imputed successfully")
         return df
     except KeyError:
         print("Error: Agent_Rating column is not found in the dataset")
