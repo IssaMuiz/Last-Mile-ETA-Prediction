@@ -61,7 +61,7 @@ def time_conversion(df: pd.DataFrame, columns: list[str]):
             df[column] = pd.to_datetime(df[column].astype(
                 str).str.strip(), format="%H:%M:%S")
             print("Time columns converted to datetime format successfully")
-        return df
+            return df
     except KeyError:
         print(f"Error: {column} is not found in the dataframe")
         raise
