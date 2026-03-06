@@ -77,6 +77,7 @@ def hyperparameter_tuning(X_train, y_train, X_val, y_val):
 
         param_grid = {
             'fit_intercept': [True, False],
+            'normalize': [True, False],
             'copy_X': [True, False]
         }
 
